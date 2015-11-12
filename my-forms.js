@@ -17,7 +17,7 @@ app.get('/', function(req,res){
 
 });
 
-app.get('/get-form', function(req,res){
+app.get('/form-practice', function(req,res){
 
 	var outputString = [];
 	for(var x in req.query){
@@ -32,7 +32,7 @@ app.get('/get-form', function(req,res){
 
 });
 
-app.post('/post-form', function(req,res){
+app.post('/form-practice', function(req,res){
 
 	var outputString = [];
 	for(var x in req.body){
