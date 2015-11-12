@@ -40,7 +40,6 @@ app.post('/form-practice', function(req,res){
 		outputString.push({'name':x,'value':req.body[x]});
 		
 	}
-	
 	var postText = {};
 	postText.listItem = outputString;
 	res.render('post-form', postText);
